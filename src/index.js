@@ -41,14 +41,7 @@ app.listen(3000, () => {
 
 
 
-//const express = require('express')
-//const bodyParser = require('body-parser')
 
-
-
-//app.use(bodyParser.json())
-//app.use(bodyParser({ multipart: true, urlencoded: true }))
-//app.use(router.routes())
 
 
 
