@@ -1,10 +1,10 @@
 import Router from 'koa-router'
 import getHealth from './health/health'
-import getSports from './sports/sports'
+import getApi from './api/event/threshold/event'
 
 const router = new Router()
 
 router.get('/health', getHealth)
-router.get('/sports', getSports)
+router.get('/api/event',getApi)
 
 export default router
